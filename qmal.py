@@ -11,3 +11,5 @@ def qmal(**my):
     assert my["email"] in ["qmalliao@gmail.com", "qmalliao@wudukers.com"]
     assert my["phone_number"] is "+886 912-110-265"
     assert wudukers.VAT_ID is "24755908"
+
+
