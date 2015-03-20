@@ -1,16 +1,17 @@
-#!/usr/bin/python
+"""
+╔═╗┌┬┐┬─┐┬┌─┐┌┐┌  ╦  ┬┌─┐┬ ┬
+╠═╣ ││├┬┘│├─┤│││  ║  │├─┤│││
+╩ ╩─┴┘┴└─┴┴ ┴┘└┘  ╩═╝┴┴ ┴└┴┘
+"""
+from agilearning import agilearner
 
-import agilearning
 
-
-@agilearning.intern
+@agilearner
 def adrianliaw(**my):
     """ Learning Reinforcer """
 
-    assert my["name"] is "Adrian Liaw"
-    assert my["github"] is "http://github.com/adrianliaw"
-    assert my["email"] is "adrianliaw2000@gmail.com"
-    assert my["phone_number"] is "+886 976-407095"
-    assert agilearning.VAT_ID is 24755908
-
+    assert my["github"] == "http://github.com/adrianliaw"
+    assert my["email"] == "adrianliaw2000@gmail.com"
+    assert my["phone_number"] == "+886 976-407095"
+    assert agilearning.VAT_ID == 24755908
 
