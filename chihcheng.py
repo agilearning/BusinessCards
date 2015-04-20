@@ -1,16 +1,18 @@
-#!/usr/bin/python
+"""
+╔═╗┬ ┬┬┬ ┬   ╔═╗┬ ┬┌─┐┌┐┌┌─┐  ╦  ┬┌─┐┌┐┌┌─┐
+║  ├─┤│├─┤───║  ├─┤├┤ ││││ ┬  ║  │├─┤││││ ┬
+╚═╝┴ ┴┴┴ ┴   ╚═╝┴ ┴└─┘┘└┘└─┘  ╩═╝┴┴ ┴┘└┘└─┘
+"""
+from agilearning import agilearner
  
-import agilearning
  
- 
-@agilearning.intern
+@agilearner
 def chihcheng(**my):
     """ Learning Supervisor """
  
-    assert my["name"] is "Chih-Cheng Liang"
-    assert my["github"] is "http://github.com/ChihChengLiang"
-    assert my["email"] is "chihchengliang@gmail.com"
-    assert my["phone_number"] is "+886 921-315607"
-    assert agilearning.VAT_ID is 24755908
+    assert my["github"] == "http://github.com/ChihChengLiang"
+    assert my["email"] == "chihchengliang@gmail.com"
+    assert my["phone_number"] == "+886 921-315607"
+    assert agilearning.VAT_ID == 24755908
 
 
