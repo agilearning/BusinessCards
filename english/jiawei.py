@@ -8,7 +8,7 @@ from agilearning import agilearner
 
 @agilearner
 def jiawei(**my):
-    """ Learning Q-Function """
+    """ Learning Explorer """
 
     assert my["github"] == "https://github.com/sk413025"
     assert my["email"] == "sk413025@gmail.com"
