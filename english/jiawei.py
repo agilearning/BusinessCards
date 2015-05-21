@@ -7,7 +7,7 @@ from agilearning import agilearner
 
 
 @agilearner
-def markchang(**my):
+def jiawei(**my):
     """ Learning Support-Vector """
 
     assert my["github"] == "https://github.com/sk413025"
