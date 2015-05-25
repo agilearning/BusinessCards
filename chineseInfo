@@ -13,26 +13,25 @@ c3h3.tw@gmail.com
 (英文版)
 https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/c3h3.py
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-張富傑
-學習監督長
-+886 953-679220
-ckmarkoh@gmail.com
-
-(英文版)
-https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/markchang.py
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""
+╔═╗┬ ┬┬┌─┐   ╔═╗┬ ┬┬  ╔═╗┬ ┬┌─┐┌┐┌┌─┐      
+║  ├─┤│├─┤───║  ├─┤│  ║  ├─┤├─┤││││ ┬      
+╚═╝┴ ┴┴┴ ┴   ╚═╝┴ ┴┴  ╚═╝┴ ┴┴ ┴┘└┘└─┘
+(CHIA-CHI CHANG)
+"""
+from agilearning import agilearner
 
 
-陳嘉葳
-調查兵團小組長
-+886 987-233507
-sk413025@gmail.com
+@agilearner
+def c3h3(**my):
+    """ Learning Booster """
 
-(英文版)
-https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/jiawei.py
+    assert my["github"] is "http://github.com/c3h3"
+    assert my["email"] in ["c3h3@agilearning.io", c3h3.tw@gmail.com"]
+    assert my["phone_number"] is "+886 988-209252"
+    assert agilearning.VAT_ID is 24755908
+
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -45,6 +44,23 @@ adrianliaw2000@gmail.com
 (英文版)
 https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/adrianliaw.py
 
+"""
+╔═╗┌┬┐┬─┐┬┌─┐┌┐┌  ╦  ┬┌─┐┬ ┬
+╠═╣ ││├┬┘│├─┤│││  ║  │├─┤│││
+╩ ╩─┴┘┴└─┴┴ ┴┘└┘  ╩═╝┴┴ ┴└┴┘
+(ADRIAN LIAW)
+"""
+from agilearning import agilearner
+
+
+@agilearner
+def adrianliaw(**my):
+    """ Learning Reinforcer """
+
+    assert my["github"] == "http://github.com/adrianliaw"
+    assert my["email"] in ["whliaw@agilearning.io", "adrianliaw2000@gmail.com"]
+    assert my["phone_number"] == "+886 976-407095"
+    assert agilearning.VAT_ID == 24755908
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -56,6 +72,25 @@ chihchengliang@gmail.com
 (英文版)
 https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/chihcheng.py
 
+"""
+╔═╗┬ ┬┬┬ ┬   ╔═╗┬ ┬┌─┐┌┐┌┌─┐  ╦  ┬┌─┐┌┐┌┌─┐
+║  ├─┤│├─┤───║  ├─┤├┤ ││││ ┬  ║  │├─┤││││ ┬
+╚═╝┴ ┴┴┴ ┴   ╚═╝┴ ┴└─┘┘└┘└─┘  ╩═╝┴┴ ┴┘└┘└─┘
+(CHIH-CHENG LIANG)
+"""
+from agilearning import agilearner
+ 
+ 
+@agilearner
+def chihcheng(**my):
+    """ Learning Supervisor """
+ 
+    assert my["github"] == "http://github.com/ChihChengLiang"
+    assert my["email"] in ["liangcc@agilearning.io", "chihchengliang@gmail.com"]
+    assert my["phone_number"] == "+886 921-315607"
+    assert agilearning.VAT_ID == 24755908
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 陳潔寧
@@ -65,6 +100,88 @@ agogomei@gmail.com
 
 (英文版)
 https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/ning.py
+
+"""
+╔╗╔┬┌┐┌┌─┐  ╔═╗┬ ┬┌─┐┌┐┌
+║║║│││││ ┬  ║  ├─┤├┤ │││
+╝╚╝┴┘└┘└─┘  ╚═╝┴ ┴└─┘┘└┘
+(NING CHEN)
+"""
+from agilearning import agilearner
+
+
+@agilearner
+def ning(**my):
+    """ Learning Trigger """
+
+    assert my["github"] is "http://github.com/agogomei01"
+    assert my["email"] in ["ningchen@agilearning.io", "agogomei@gmail.com"]
+    assert my["phone_number"] is "+886 919-510633"
+    assert agilearning.VAT_ID is 24755908
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+張富傑
+學習監督長
++886 953-679220
+ckmarkoh@gmail.com
+
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/markchang.py
+
+"""
+╔═╦═╗┌─┐┬─┐┬ ┌  ╔═╗┬ ┬┌─┐┌┐┌┌─┐
+║ ║ ║├─┤├┬┘├┬┘  ║  ├─┤├─┤││││ ┬
+╩ ╩ ╩┴ ┴┴└─┘└─  ╚═╝┴ ┴┴ ┴┘└┘└─┘
+(MARK CHANG)
+"""
+from agilearning import agilearner
+
+
+@agilearner
+def markchang(**my):
+    """ Learning Support-Vector """
+
+    assert my["github"] == "http://github.com/ckmarkoh"
+    assert my["email"] == "ckmarkoh@gmail.com"
+    assert my["phone_number"] == "+886 953-679220"
+    assert agilearning.VAT_ID == 24755908
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+陳嘉葳
+調查兵團小組長
++886 987-233507
+sk413025@gmail.com
+
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/jiawei.py
+
+
+"""
+ ╦╦╔═╗╦ ╦╔═╗╦  ╔═╗╦ ╦╔═╗╔╗╔
+ ║║╠═╣║║║║╣ ║  ║  ╠═╣║╣ ║║║
+╚╝╩╩ ╩╚╩╝╚═╝╩  ╚═╝╩ ╩╚═╝╝╚╝
+(JIAWEI CHEN)
+"""
+from agilearning import agilearner
+
+
+@agilearner
+def jiawei(**my):
+    """ Active Learner """
+
+    assert my["github"] == "https://github.com/sk413025"
+    assert my["email"] == "sk413025@gmail.com"
+    assert my["phone_number"] == "+886 987-233507"
+    assert agilearning.VAT_ID == 24755908
+
+
+
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
