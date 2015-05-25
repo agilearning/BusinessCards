@@ -27,10 +27,9 @@ def c3h3(**my):
     """ Learning Booster """
 
     assert my["github"] is "http://github.com/c3h3"
-    assert my["email"] in ["c3h3@agilearning.io", c3h3.tw@gmail.com"]
+    assert my["email"] is "c3h3@agilearning.io"
     assert my["phone_number"] is "+886 988-209252"
     assert agilearning.VAT_ID is 24755908
-
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -58,7 +57,7 @@ def adrianliaw(**my):
     """ Learning Reinforcer """
 
     assert my["github"] == "http://github.com/adrianliaw"
-    assert my["email"] in ["whliaw@agilearning.io", "adrianliaw2000@gmail.com"]
+    assert my["email"] is "whliaw@agilearning.io"
     assert my["phone_number"] == "+886 976-407095"
     assert agilearning.VAT_ID == 24755908
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -67,6 +66,7 @@ def adrianliaw(**my):
 梁智程
 學習監督長
 +886 921-315607
+liangcc@agilearning.io
 chihchengliang@gmail.com
 
 (英文版)
@@ -86,7 +86,7 @@ def chihcheng(**my):
     """ Learning Supervisor """
  
     assert my["github"] == "http://github.com/ChihChengLiang"
-    assert my["email"] in ["liangcc@agilearning.io", "chihchengliang@gmail.com"]
+    assert my["email"] is "liangcc@agilearning.io"
     assert my["phone_number"] == "+886 921-315607"
     assert agilearning.VAT_ID == 24755908
 
@@ -96,6 +96,7 @@ def chihcheng(**my):
 陳潔寧
 衝組組長
 +886 919-510633
+ningchen@agilearning.io
 agogomei@gmail.com
 
 (英文版)
@@ -115,7 +116,7 @@ def ning(**my):
     """ Learning Trigger """
 
     assert my["github"] is "http://github.com/agogomei01"
-    assert my["email"] in ["ningchen@agilearning.io", "agogomei@gmail.com"]
+    assert my["email"] is "ningchen@agilearning.io"
     assert my["phone_number"] is "+886 919-510633"
     assert agilearning.VAT_ID is 24755908
 
