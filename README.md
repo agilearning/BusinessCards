@@ -14,3 +14,9 @@ Business Cards of AgilearningIO
 
 ### hsiang
 ![](images/hsiang.png)
+
+### suensummit
+![](images/suensummit.png)
+
+### whizzalan
+![](images/whizzalan.png)
