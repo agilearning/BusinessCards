@@ -186,4 +186,36 @@ def jiawei(**my):
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+趙致平
+幕賓股長
++886 910-799795
+whizzalan@gmail.com
+
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/whizzalan.py
+
+
+"""
+╔═╗┌─┐┌─┐┬─┐┌─┐┌─┐  ╔═╗┬ ┬┌─┐┌─┐
+║ ╦├┤ │ │├┬┘│ ┬├┤   ║  ├─┤├─┤│ │
+╚═╝└─┘└─┘┴└─└─┘└─┘  ╚═╝┴ ┴┴ ┴└─┘
+"""
+from datasci.info import datasci.info
+
+
+@datasci.info
+def whizzalan(**my):
+    """ Learning Easier """
+
+    assert my["github"] is "http://github.com/whizzalan"
+    assert my["email"] in ["whizzalan@data-sci.info", "whizzalan@gmail.com"]
+    assert my["phone_number"] is "+886 910-799795"
+    assert agilearning.VAT_ID is 24755908
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 (請大家補上資訊囉)
