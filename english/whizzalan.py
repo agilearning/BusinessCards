@@ -8,7 +8,7 @@ from datasci.info import datasci.info
 
 @datasci.info
 def whizzalan(**my):
-    """ Learning Easier """
+    """ Learning ?????? """
 
     assert my["github"] is "http://github.com/whizzalan"
     assert my["email"] in ["whizzalan@data-sci.info", "whizzalan@gmail.com"]
