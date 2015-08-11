@@ -190,6 +190,7 @@ def jiawei(**my):
 趙致平
 幕賓股長
 +886 910-799795
+george.chao@data-sci.info
 whizzalan@gmail.com
 
 (英文版)
@@ -202,7 +203,7 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/whizz
 ╚═╝└─┘└─┘┴└─└─┘└─┘  ╚═╝┴ ┴┴ ┴└─┘
 (GEORGE CHAO)
 """
-from datasci.info import datasci.info
+from datasci.info import datasci
 
 
 @datasci.info
@@ -210,7 +211,7 @@ def whizzalan(**my):
     """ Learning Smoother """
 
     assert my["github"] is "http://github.com/whizzalan"
-    assert my["email"] in ["whizzalan@data-sci.info", "whizzalan@gmail.com"]
+    assert my["email"] in ["george.chao@data-sci.info", "whizzalan@gmail.com"]
     assert my["phone_number"] is "+886 910-799795"
     assert agilearning.VAT_ID is 24755908
 
@@ -220,8 +221,10 @@ def whizzalan(**my):
 
 
 孫玉峰
-火力支援長
+木亥技師長
 +886 920-390985
++886 972-715285
+summit.suen@data-sci.info
 summit.suen@gmail.com
 
 (英文版)
@@ -233,7 +236,7 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/suens
 ╚═╝└─┘┴ ┴┴ ┴┴ ┴   ╚═╝└─┘└─┘┘└┘
 (SUMMIT SUEN)
 """
-from datasci.info import datasci.info
+from datasci.info import datasci
 
 
 @datasci.info
@@ -242,7 +245,7 @@ def suensummit(**my):
 
     assert my["github"] is "http://github.com/suensummit"
     assert my["email"] in ["summit.suen@data-sci.info", "summit.suen@gmail.com"]
-    assert my["phone_number"] is "+886 920-390985"
+    assert my["phone_number"] in ["+886 920-390985", "+886 972-715285"]
     assert agilearning.VAT_ID is 24755908
 
 

@@ -3,7 +3,7 @@
 ║ ╦├┤ │ │├┬┘│ ┬├┤   ║  ├─┤├─┤│ │
 ╚═╝└─┘└─┘┴└─└─┘└─┘  ╚═╝┴ ┴┴ ┴└─┘
 """
-from datasci.info import datasci.info
+from datasci.info import datasci
 
 
 @datasci.info
