@@ -1,4 +1,4 @@
-名片中文資訊：(英文請發 PR 補充到 english 資料夾)
+﻿名片中文資訊：(英文請發 PR 補充到 english 資料夾)
 
 統編：24755908
 
@@ -249,6 +249,34 @@ def suensummit(**my):
     assert agilearning.VAT_ID is 24755908
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+陳奎銘
+增援部長
++886 919-784598
+benjamin0901@gmail.com
+
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/benjamin.py
+
+"""
+╔╗ ┌─┐┌┐┌ ┬┌─┐┌┬┐┬┌┐┌  ╔═╗┬ ┬┌─┐┌┐┌
+╠╩╗├┤ │││ │├─┤│││││││  ║  ├─┤├┤ │││
+╚═╝└─┘┘└┘└┘┴ ┴┴ ┴┴┘└┘  ╚═╝┴ ┴└─┘┘└┘
+(Benjamin Chen)
+"""
+from datasci.info import datasci
+
+
+@datasci.info
+def Benjamin(**my):
+    """ Reinforcement Learner """
+
+    assert my["github"] is "http://github.com/KuiMing"
+    assert my["email"] in "benjamin0901@gmail.com"
+    assert my["phone_number"] in "+886 919-784598"
+    assert agilearning.VAT_ID is 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
