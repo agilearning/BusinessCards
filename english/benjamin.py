@@ -5,10 +5,10 @@
 ╚═╝└─┘┘└┘└┘┴ ┴┴ ┴┴┘└┘  ╚═╝┴ ┴└─┘┘└┘
 (Benjamin Chen)
 """
-from datasci.info import datasci
+from agilearning import agilearner
 
 
-@datasci.info
+@agilearner
 def Benjamin(**my):
     """ Reinforcement Learner """
 
