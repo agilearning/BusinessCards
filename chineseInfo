@@ -280,4 +280,33 @@ def Benjamin(**my):
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+陳建安
+美股交易兼戰鬥部隊
++886 963301746
+john.data.chen@gmail.com
+
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/johnchen.py
+
+"""
+ ╦┌─┐┬ ┬┌┐┌  ╔═╗┬ ┬┌─┐┌┐┌
+ ║│ │├─┤│││  ║  ├─┤├┤ │││
+╚╝└─┘┴ ┴┘└┘  ╚═╝┴ ┴└─┘┘└┘
+
+"""
+from agilearning import agilearner
+
+
+@agilearner
+def johnchen(**my):
+    """ Trading Learner """
+
+    assert my["github"] is "https://github.com/john-data-chen"
+    assert my["email"] in ["john.data.chen@gmail.com"]
+    assert my["phone_number"] is "+886 963301746"
+    assert agilearning.VAT_ID is 24755908
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 (請大家補上資訊囉)
