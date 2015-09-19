@@ -3,10 +3,10 @@
 ║ ╦├┤ │ │├┬┘│ ┬├┤   ║  ├─┤├─┤│ │
 ╚═╝└─┘└─┘┴└─└─┘└─┘  ╚═╝┴ ┴┴ ┴└─┘
 """
-from datasci.info import datasci
+from agilearning import agilearner
 
 
-@datasci.info
+@agilearner
 def whizzalan(**my):
     """ Learning Smoother """
 

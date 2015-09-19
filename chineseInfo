@@ -14,8 +14,8 @@ c3h3.tw@gmail.com
 https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/c3h3.py
 
 """
-╔═╗┬ ┬┬┌─┐   ╔═╗┬ ┬┬  ╔═╗┬ ┬┌─┐┌┐┌┌─┐      
-║  ├─┤│├─┤───║  ├─┤│  ║  ├─┤├─┤││││ ┬      
+╔═╗┬ ┬┬┌─┐   ╔═╗┬ ┬┬  ╔═╗┬ ┬┌─┐┌┐┌┌─┐
+║  ├─┤│├─┤───║  ├─┤│  ║  ├─┤├─┤││││ ┬
 ╚═╝┴ ┴┴┴ ┴   ╚═╝┴ ┴┴  ╚═╝┴ ┴┴ ┴┘└┘└─┘
 (CHIA-CHI CHANG)
 """
@@ -79,12 +79,12 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/chihc
 (CHIH-CHENG LIANG)
 """
 from agilearning import agilearner
- 
- 
+
+
 @agilearner
 def chihcheng(**my):
     """ Learning Supervisor """
- 
+
     assert my["github"] == "http://github.com/ChihChengLiang"
     assert my["email"] is "liangcc@agilearning.io"
     assert my["phone_number"] == "+886 921-315607"
@@ -203,10 +203,10 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/whizz
 ╚═╝└─┘└─┘┴└─└─┘└─┘  ╚═╝┴ ┴┴ ┴└─┘
 (GEORGE CHAO)
 """
-from datasci.info import datasci
+from agilearning import agilearner
 
 
-@datasci.info
+@agilearner
 def whizzalan(**my):
     """ Learning Smoother """
 
@@ -221,7 +221,7 @@ def whizzalan(**my):
 
 
 孫玉峰
-木亥技師長
+木亥刂技師長
 +886 920-390985
 +886 972-715285
 summit.suen@data-sci.info
@@ -236,10 +236,10 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/suens
 ╚═╝└─┘┴ ┴┴ ┴┴ ┴   ╚═╝└─┘└─┘┘└┘
 (SUMMIT SUEN)
 """
-from datasci.info import datasci
+from agilearning import agilearner
 
 
-@datasci.info
+@agilearner
 def suensummit(**my):
     """ Learning Kernel """
 
@@ -266,10 +266,10 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/benja
 ╚═╝└─┘┘└┘└┘┴ ┴┴ ┴┴┘└┘  ╚═╝┴ ┴└─┘┘└┘
 (Benjamin Chen)
 """
-from datasci.info import datasci
+from agilearning import agilearner
 
 
-@datasci.info
+@agilearner
 def Benjamin(**my):
     """ Reinforcement Learner """
 

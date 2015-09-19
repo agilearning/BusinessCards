@@ -14,5 +14,3 @@ def ning(**my):
     assert my["email"] in ["ningchen@agilearning.io", "agogomei@gmail.com"]
     assert my["phone_number"] is "+886 919-510633"
     assert agilearning.VAT_ID is 24755908
-
-
