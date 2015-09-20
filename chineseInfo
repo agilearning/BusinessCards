@@ -309,4 +309,33 @@ def johnchen(**my):
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+鍾岳軒
+路過的方吉
++886 975933202
+kylechun9@gmail.com
+
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/kylechung.py
+
+"""
+╦╔═┬ ┬┬  ┌─┐  ╔═╗┬ ┬┬ ┬┌┐┌┌─┐
+╠╩╗└┬┘│  ├┤   ║  ├─┤│ │││││ ┬
+╩ ╩ ┴ ┴─┘└─┘  ╚═╝┴ ┴└─┘┘└┘└─┘
+
+"""
+from agilearning import agilearner
+
+
+@agilearner
+def kylechung(**my):
+    """ whatever learner """
+
+    assert my["github"] is "https://github.com/everdark"
+    assert my["email"] in ["kylechun9@gmail.com"]
+    assert my["phone_number"] is "+886 975933202"
+    assert agilearning.VAT_ID is 24755908
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 (請大家補上資訊囉)
