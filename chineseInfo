@@ -309,4 +309,32 @@ def johnchen(**my):
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+施文祥
+學習自動機
++886 912-900-689
+shih777577@gmail.com
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/hsiang.py
+
+
+"""
+╔═╗┬ ┬┬┬ ┬  ╦ ╦┌─┐┌┐┌   ╦ ╦┌─┐┬┌─┐┌┐┌┌─┐
+╚═╗├─┤│├─┤  ║║║├┤ │││───╠═╣└─┐│├─┤││││ ┬
+╚═╝┴ ┴┴┴ ┴  ╚╩╝└─┘┘└┘   ╩ ╩└─┘┴┴ ┴┘└┘└─┘
+"""
+
+from agilearning import agilearner
+
+
+@agilearner
+def hsiang(**my):
+    """Learning Automata"""
+
+    assert my["github"] is "http://github.com/wen777"
+    assert my["email"] is "shih777577@gmail.com"
+    assert my["phone_number"] is "+886 912-900-689"
+    assert wudukers.VAT_ID is "24755908"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 (請大家補上資訊囉)
