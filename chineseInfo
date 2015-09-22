@@ -307,7 +307,39 @@ def johnchen(**my):
     assert my["phone_number"] is "+886 963301746"
     assert agilearning.VAT_ID is 24755908
 
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+鍾岳軒
+路過的方吉
++886 975933202
+kylechun9@gmail.com
+
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/kylechung.py
+
+"""
+╦╔═┬ ┬┬  ┌─┐  ╔═╗┬ ┬┬ ┬┌┐┌┌─┐
+╠╩╗└┬┘│  ├┤   ║  ├─┤│ │││││ ┬
+╩ ╩ ┴ ┴─┘└─┘  ╚═╝┴ ┴└─┘┘└┘└─┘
+(Kyle Chung)
+"""
+from agilearning import agilearner
+
+
+@agilearner
+def kylechung(**my):
+    """ Learning ensemble """
+
+    assert my["github"] is "https://github.com/everdark"
+    assert my["email"] in ["kylechun9@gmail.com"]
+    assert my["phone_number"] is "+886 975933202"
+    assert agilearning.VAT_ID is 24755908
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 施文祥
 學習自動機
@@ -322,11 +354,11 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/hsian
 ╚═╗├─┤│├─┤  ║║║├┤ │││───╠═╣└─┐│├─┤││││ ┬
 ╚═╝┴ ┴┴┴ ┴  ╚╩╝└─┘┘└┘   ╩ ╩└─┘┴┴ ┴┘└┘└─┘
 """
-
 from agilearning import agilearner
 
 
 @agilearner
+
 def hsiang(**my):
     """Learning Automata"""
 
