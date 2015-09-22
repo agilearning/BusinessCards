@@ -329,7 +329,7 @@ from agilearning import agilearner
 
 @agilearner
 def kylechung(**my):
-    """ whatever learner """
+    """ Learning ensemble """
 
     assert my["github"] is "https://github.com/everdark"
     assert my["email"] in ["kylechun9@gmail.com"]
