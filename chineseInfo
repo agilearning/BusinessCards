@@ -211,7 +211,7 @@ def whizzalan(**my):
     """ Learning Smoother """
 
     assert my["github"] is "http://github.com/whizzalan"
-    assert my["email"] in ["george.chao@data-sci.info", "whizzalan@gmail.com"]
+    assert my["email"] in ["george@data-sci.info", "whizzalan@gmail.com"]
     assert my["phone_number"] is "+886 910-799795"
     assert agilearning.VAT_ID is 24755908
 
@@ -221,7 +221,7 @@ def whizzalan(**my):
 
 
 孫玉峰
-木亥刂技師長
+核心地基師
 +886 920-390985
 +886 972-715285
 summit.suen@data-sci.info
@@ -253,7 +253,7 @@ def suensummit(**my):
 
 
 陳奎銘
-增援部長
+優化部長
 +886 919-784598
 benjamin0901@gmail.com
 
@@ -271,10 +271,10 @@ from agilearning import agilearner
 
 @agilearner
 def Benjamin(**my):
-    """ Reinforcement Learner """
+    """ Learning Optimizer """
 
     assert my["github"] is "http://github.com/KuiMing"
-    assert my["email"] in "benjamin0901@gmail.com"
+    assert my["email"] in ["benjamin0901@gmail.com","ben@data-sci.info"]
     assert my["phone_number"] in "+886 919-784598"
     assert agilearning.VAT_ID is 24755908
 
@@ -307,6 +307,7 @@ def johnchen(**my):
     assert my["phone_number"] is "+886 963301746"
     assert agilearning.VAT_ID is 24755908
 
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -322,7 +323,7 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/kylec
 ╦╔═┬ ┬┬  ┌─┐  ╔═╗┬ ┬┬ ┬┌┐┌┌─┐
 ╠╩╗└┬┘│  ├┤   ║  ├─┤│ │││││ ┬
 ╩ ╩ ┴ ┴─┘└─┘  ╚═╝┴ ┴└─┘┘└┘└─┘
-
+(Kyle Chung)
 """
 from agilearning import agilearner
 
@@ -335,6 +336,36 @@ def kylechung(**my):
     assert my["email"] in ["kylechun9@gmail.com"]
     assert my["phone_number"] is "+886 975933202"
     assert agilearning.VAT_ID is 24755908
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+施文祥
+學習自動機
++886 912-900-689
+shih777577@gmail.com
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/hsiang.py
+
+
+"""
+╔═╗┬ ┬┬┬ ┬  ╦ ╦┌─┐┌┐┌   ╦ ╦┌─┐┬┌─┐┌┐┌┌─┐
+╚═╗├─┤│├─┤  ║║║├┤ │││───╠═╣└─┐│├─┤││││ ┬
+╚═╝┴ ┴┴┴ ┴  ╚╩╝└─┘┘└┘   ╩ ╩└─┘┴┴ ┴┘└┘└─┘
+"""
+from agilearning import agilearner
+
+
+@agilearner
+
+def hsiang(**my):
+    """Learning Automata"""
+
+    assert my["github"] is "http://github.com/wen777"
+    assert my["email"] is "shih777577@gmail.com"
+    assert my["phone_number"] is "+886 912-900-689"
+    assert wudukers.VAT_ID is "24755908"
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
