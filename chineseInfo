@@ -209,7 +209,7 @@ def Benjamin(**my):
 
 陳建安
 美股交易兼戰鬥部隊
-+886 963301746
++886 963-301746
 john.data.chen@gmail.com
 
 (英文版)
@@ -230,14 +230,14 @@ def johnchen(**my):
 
     assert my["github"] == "https://github.com/john-data-chen"
     assert my["email"] == "john.data.chen@gmail.com"
-    assert my["phone_number"] == "+886 963301746"
+    assert my["phone_number"] == "+886 963-301746"
     assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 鍾岳軒
 路過的方吉
-+886 975933202
++886 975-933202
 kylechun9@gmail.com
 
 (英文版)
@@ -258,7 +258,7 @@ def kylechung(**my):
 
     assert my["github"] == "https://github.com/everdark"
     assert my["email"] == "kylechun9@gmail.com"
-    assert my["phone_number"] == "+886 975933202"
+    assert my["phone_number"] == "+886 975-933202"
     assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -287,7 +287,7 @@ def hsiang(**my):
 
     assert my["github"] == "http://github.com/wen777"
     assert my["email"] == "shih777577@gmail.com"
-    assert my["phone_number"] == "+886 912-900-689"
+    assert my["phone_number"] == "+886 912-900689"
     assert VAT_ID == "24755908"
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
