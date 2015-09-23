@@ -337,4 +337,32 @@ def hsiang(**my):
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+郭孟坤
+優質學伴
++886 958-060033
+coccolegacy@gmail.com
+(英文版)
+https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/mansunkuo.py
+
+
+"""
+╔╦╗┌─┐┌┐┌┌─┐┬ ┬┌┐┌  ╦╔═┬ ┬┌─┐
+║║║├─┤│││└─┐│ ││││  ╠╩╗│ ││ │
+╩ ╩┴ ┴┘└┘└─┘└─┘┘└┘  ╩ ╩└─┘└─┘
+"""
+from agilearning import agilearner
+
+
+@agilearner
+def mansunkuo(**my):
+    """ Learning Bootstrap """
+
+    assert my["github"] is "http://github.com/mansunkuo"
+    assert my["email"] in ["coccolegacy@gmail.com"]
+    assert my["phone_number"] is "+886 958-060033"
+    assert agilearning.VAT_ID is 24755908
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 (請大家補上資訊囉)
