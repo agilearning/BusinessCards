@@ -197,12 +197,12 @@ from agilearning import agilearner, VAT_ID
 
 
 @agilearner
-def Benjamin(**my):
+def benjamin(**my):
     """ Learning Optimizer """
 
     assert my["github"] == "http://github.com/KuiMing"
     assert my["email"] in ["benjamin0901@gmail.com","ben@data-sci.info"]
-    assert my["phone_number"] in "+886 919-784598"
+    assert my["phone_number"] == "+886 919-784598"
     assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -265,7 +265,7 @@ def kylechung(**my):
 
 施文祥
 學習自動機
-+886 912-900-689
++886 912-900689
 shih777577@gmail.com
 
 (英文版)
@@ -283,7 +283,7 @@ from agilearning import agilearner, VAT_ID
 @agilearner
 
 def hsiang(**my):
-    """Learning Automata"""
+    """ Learning Automata """
 
     assert my["github"] == "http://github.com/wen777"
     assert my["email"] == "shih777577@gmail.com"
