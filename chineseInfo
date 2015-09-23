@@ -19,18 +19,17 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/c3h3.
 ╚═╝┴ ┴┴┴ ┴   ╚═╝┴ ┴┴  ╚═╝┴ ┴┴ ┴┘└┘└─┘
 (CHIA-CHI CHANG)
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def c3h3(**my):
     """ Learning Booster """
 
-    assert my["github"] is "http://github.com/c3h3"
-    assert my["email"] is "c3h3@agilearning.io"
-    assert my["phone_number"] is "+886 988-209252"
-    assert agilearning.VAT_ID is 24755908
-
+    assert my["github"] == "http://github.com/c3h3"
+    assert my["email"] == "c3h3@agilearning.io"
+    assert my["phone_number"] == "+886 988-209252"
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -49,7 +48,7 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/adria
 ╩ ╩─┴┘┴└─┴┴ ┴┘└┘  ╩═╝┴┴ ┴└┴┘
 (ADRIAN LIAW)
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
@@ -57,68 +56,9 @@ def adrianliaw(**my):
     """ Learning Reinforcer """
 
     assert my["github"] == "http://github.com/adrianliaw"
-    assert my["email"] is "whliaw@agilearning.io"
+    assert my["email"] == "whliaw@agilearning.io"
     assert my["phone_number"] == "+886 976-407095"
-    assert agilearning.VAT_ID == 24755908
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-梁智程
-學習監督長
-+886 921-315607
-liangcc@agilearning.io
-chihchengliang@gmail.com
-
-(英文版)
-https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/chihcheng.py
-
-"""
-╔═╗┬ ┬┬┬ ┬   ╔═╗┬ ┬┌─┐┌┐┌┌─┐  ╦  ┬┌─┐┌┐┌┌─┐
-║  ├─┤│├─┤───║  ├─┤├┤ ││││ ┬  ║  │├─┤││││ ┬
-╚═╝┴ ┴┴┴ ┴   ╚═╝┴ ┴└─┘┘└┘└─┘  ╩═╝┴┴ ┴┘└┘└─┘
-(CHIH-CHENG LIANG)
-"""
-from agilearning import agilearner
-
-
-@agilearner
-def chihcheng(**my):
-    """ Learning Supervisor """
-
-    assert my["github"] == "http://github.com/ChihChengLiang"
-    assert my["email"] is "liangcc@agilearning.io"
-    assert my["phone_number"] == "+886 921-315607"
-    assert agilearning.VAT_ID == 24755908
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-陳潔寧
-衝組組長
-+886 919-510633
-ningchen@agilearning.io
-agogomei@gmail.com
-
-(英文版)
-https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/ning.py
-
-"""
-╔╗╔┬┌┐┌┌─┐  ╔═╗┬ ┬┌─┐┌┐┌
-║║║│││││ ┬  ║  ├─┤├┤ │││
-╝╚╝┴┘└┘└─┘  ╚═╝┴ ┴└─┘┘└┘
-(NING CHEN)
-"""
-from agilearning import agilearner
-
-
-@agilearner
-def ning(**my):
-    """ Learning Trigger """
-
-    assert my["github"] is "http://github.com/agogomei01"
-    assert my["email"] is "ningchen@agilearning.io"
-    assert my["phone_number"] is "+886 919-510633"
-    assert agilearning.VAT_ID is 24755908
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -136,7 +76,7 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/markc
 ╩ ╩ ╩┴ ┴┴└─┘└─  ╚═╝┴ ┴┴ ┴┘└┘└─┘
 (MARK CHANG)
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
@@ -146,12 +86,9 @@ def markchang(**my):
     assert my["github"] == "http://github.com/ckmarkoh"
     assert my["email"] == "ckmarkoh@gmail.com"
     assert my["phone_number"] == "+886 953-679220"
-    assert agilearning.VAT_ID == 24755908
-
-
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 陳嘉葳
 調查兵團小組長
@@ -168,7 +105,7 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/jiawe
 ╚╝╩╩ ╩╚╩╝╚═╝╩  ╚═╝╩ ╩╚═╝╝╚╝
 (JIAWEI CHEN)
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
@@ -178,14 +115,9 @@ def jiawei(**my):
     assert my["github"] == "https://github.com/sk413025"
     assert my["email"] == "sk413025@gmail.com"
     assert my["phone_number"] == "+886 987-233507"
-    assert agilearning.VAT_ID == 24755908
-
-
-
-
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 趙致平
 幕賓股長
@@ -203,25 +135,22 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/whizz
 ╚═╝└─┘└─┘┴└─└─┘└─┘  ╚═╝┴ ┴┴ ┴└─┘
 (GEORGE CHAO)
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def whizzalan(**my):
     """ Learning Smoother """
 
-    assert my["github"] is "http://github.com/whizzalan"
+    assert my["github"] == "http://github.com/whizzalan"
     assert my["email"] in ["george@data-sci.info", "whizzalan@gmail.com"]
-    assert my["phone_number"] is "+886 910-799795"
-    assert agilearning.VAT_ID is 24755908
-
-
+    assert my["phone_number"] == "+886 910-799795"
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 孫玉峰
-核心地基師
+打不倒的空氣人
 +886 920-390985
 +886 972-715285
 summit.suen@data-sci.info
@@ -236,21 +165,19 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/suens
 ╚═╝└─┘┴ ┴┴ ┴┴ ┴   ╚═╝└─┘└─┘┘└┘
 (SUMMIT SUEN)
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def suensummit(**my):
     """ Learning Kernel """
 
-    assert my["github"] is "http://github.com/suensummit"
+    assert my["github"] == "http://github.com/suensummit"
     assert my["email"] in ["summit.suen@data-sci.info", "summit.suen@gmail.com"]
     assert my["phone_number"] in ["+886 920-390985", "+886 972-715285"]
-    assert agilearning.VAT_ID is 24755908
-
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 陳奎銘
 優化部長
@@ -266,20 +193,19 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/benja
 ╚═╝└─┘┘└┘└┘┴ ┴┴ ┴┴┘└┘  ╚═╝┴ ┴└─┘┘└┘
 (Benjamin Chen)
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def Benjamin(**my):
     """ Learning Optimizer """
 
-    assert my["github"] is "http://github.com/KuiMing"
+    assert my["github"] == "http://github.com/KuiMing"
     assert my["email"] in ["benjamin0901@gmail.com","ben@data-sci.info"]
     assert my["phone_number"] in "+886 919-784598"
-    assert agilearning.VAT_ID is 24755908
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 陳建安
 美股交易兼戰鬥部隊
@@ -295,21 +221,19 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/johnc
 ╚╝└─┘┴ ┴┘└┘  ╚═╝┴ ┴└─┘┘└┘
 
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def johnchen(**my):
     """ Trading Learner """
 
-    assert my["github"] is "https://github.com/john-data-chen"
-    assert my["email"] in ["john.data.chen@gmail.com"]
-    assert my["phone_number"] is "+886 963301746"
-    assert agilearning.VAT_ID is 24755908
-
+    assert my["github"] == "https://github.com/john-data-chen"
+    assert my["email"] == "john.data.chen@gmail.com"
+    assert my["phone_number"] == "+886 963301746"
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 鍾岳軒
 路過的方吉
@@ -325,26 +249,25 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/kylec
 ╩ ╩ ┴ ┴─┘└─┘  ╚═╝┴ ┴└─┘┘└┘└─┘
 (Kyle Chung)
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def kylechung(**my):
     """ Learning ensemble """
 
-    assert my["github"] is "https://github.com/everdark"
-    assert my["email"] in ["kylechun9@gmail.com"]
-    assert my["phone_number"] is "+886 975933202"
-    assert agilearning.VAT_ID is 24755908
-
+    assert my["github"] == "https://github.com/everdark"
+    assert my["email"] == "kylechun9@gmail.com"
+    assert my["phone_number"] == "+886 975933202"
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 施文祥
 學習自動機
 +886 912-900-689
 shih777577@gmail.com
+
 (英文版)
 https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/hsiang.py
 
@@ -354,7 +277,7 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/hsian
 ╚═╗├─┤│├─┤  ║║║├┤ │││───╠═╣└─┐│├─┤││││ ┬
 ╚═╝┴ ┴┴┴ ┴  ╚╩╝└─┘┘└┘   ╩ ╩└─┘┴┴ ┴┘└┘└─┘
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
@@ -362,10 +285,10 @@ from agilearning import agilearner
 def hsiang(**my):
     """Learning Automata"""
 
-    assert my["github"] is "http://github.com/wen777"
-    assert my["email"] is "shih777577@gmail.com"
-    assert my["phone_number"] is "+886 912-900-689"
-    assert wudukers.VAT_ID is "24755908"
+    assert my["github"] == "http://github.com/wen777"
+    assert my["email"] == "shih777577@gmail.com"
+    assert my["phone_number"] == "+886 912-900-689"
+    assert VAT_ID == "24755908"
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -373,6 +296,7 @@ def hsiang(**my):
 優質學伴
 +886 958-060033
 coccolegacy@gmail.com
+
 (英文版)
 https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/mansunkuo.py
 
@@ -382,19 +306,18 @@ https://raw.githubusercontent.com/agilearning/BusinessCards/master/english/mansu
 ║║║├─┤│││└─┐│ ││││  ╠╩╗│ ││ │
 ╩ ╩┴ ┴┘└┘└─┘└─┘┘└┘  ╩ ╩└─┘└─┘
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def mansunkuo(**my):
     """ Learning Bootstrap """
 
-    assert my["github"] is "http://github.com/mansunkuo"
-    assert my["email"] in ["coccolegacy@gmail.com"]
-    assert my["phone_number"] is "+886 958-060033"
-    assert agilearning.VAT_ID is 24755908
+    assert my["github"] == "http://github.com/mansunkuo"
+    assert my["email"] == "coccolegacy@gmail.com"
+    assert my["phone_number"] == "+886 958-060033"
+    assert VAT_ID == 24755908
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 (請大家補上資訊囉)

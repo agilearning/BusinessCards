@@ -3,14 +3,14 @@
  ║│ │├─┤│││  ║  ├─┤├┤ │││
 ╚╝└─┘┴ ┴┘└┘  ╚═╝┴ ┴└─┘┘└┘
 """
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def johnchen(**my):
     """ Trading Learner """
 
-    assert my["github"] is "https://github.com/john-data-chen"
-    assert my["email"] in ["john.data.chen@gmail.com"]
-    assert my["phone_number"] is "+886 963301746"
-    assert agilearning.VAT_ID is 24755908
+    assert my["github"] == "https://github.com/john-data-chen"
+    assert my["email"] == "john.data.chen@gmail.com"
+    assert my["phone_number"] == "+886 963301746"
+    assert VAT_ID == 24755908

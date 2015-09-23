@@ -3,15 +3,14 @@
 ╚═╗├─┤│├─┤  ║║║├┤ │││───╠═╣└─┐│├─┤││││ ┬
 ╚═╝┴ ┴┴┴ ┴  ╚╩╝└─┘┘└┘   ╩ ╩└─┘┴┴ ┴┘└┘└─┘
 """
-
-from agilearning import agilearner
+from agilearning import agilearner, VAT_ID
 
 
 @agilearner
 def hsiang(**my):
     """Learning Automata"""
 
-    assert my["github"] is "http://github.com/wen777"
-    assert my["email"] is "shih777577@gmail.com"
-    assert my["phone_number"] is "+886 912-900-689"
-    assert wudukers.VAT_ID is "24755908"
+    assert my["github"] == "http://github.com/wen777"
+    assert my["email"] == "shih777577@gmail.com"
+    assert my["phone_number"] == "+886 912-900-689"
+    assert wudukers.VAT_ID == "24755908"
